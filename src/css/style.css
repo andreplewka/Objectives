@@ -1,25 +1,91 @@
+/* All site */
 body {
     font-family: 'Roboto', sans-serif;
-}
-h1 {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: underline;
 }
 .no-margin {
     margin: 0;
 }
-.input-field label {
-    color: #fff;
-  }
-.input-field input[type=text]{
-    border-bottom: 1px solid #fff;
-}
-.login {
+
+/* Login section */
+#login {
     height: 100vh;
     display: grid;
     align-content: center;
     justify-content: center;
     padding-top: 20%;
     padding-bottom: 30%;
+}
+#login > h1.logo{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: underline;
+}
+#login > .input-field label {
+    color: #fff;
+  }
+#login > .input-field input[type=text],.input-field input[type=password]{
+    border-bottom: 1px solid #fff;
+}
+#login > div.button {
+    display: grid;
+}
+
+/* Login banner */
+#banner {
+    height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 10px;
+}
+#banner div{
+    width: 50%;
+    color: #555555;
+    font-size: 40px;
+    font-weight: 700;
+}
+#banner div.right{
+    width: 70%;
+    margin-right: 0px;
+}
+
+/* Main navbar */
+.navbar{
+    height: 100vh;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.navbar-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.material-icons.md-60 {
+    font-size: 60px;
+    border-radius: 10px;
+}
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-54 {
+    font-size: 54px;
+    border-radius: 10px;
+}
+
+/*  */
+.card .card-action {
+    display: flex;
+}
+.card .card-action .item{
+    width: fit-content;
+    margin-right: 10px;
+    color:#00897b !important;
+}
+.card .card-action .right{
+    margin-right: 0px;
+    position: absolute;
+    right: 20px;
 }

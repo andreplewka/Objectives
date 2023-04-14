@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="../src/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="../src/css/style.css">   
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>Objectives</title>
-</head>
-<body>
-  <div>
-    <div class="row no-margin">
-      <div class="col s12 m4 teal darken-1">
-        <div class="container login">
-          <H1>Objectives</H1>
-          <div class="input-field col s12">
-            <input id="username" type="text">
-            <label for="username">Username</label>
+<html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="../src/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../src/css/style.css">   
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <title>Objectives</title>
+  </head>
+  <body>
+    <div>
+      <div class="row no-margin">
+        <div class="col s12 m6 l4 teal darken-1">
+          <div id="login" class="container">
+            <H1 class="logo">Objectives</H1>
+            <div class="input-field col s12">
+              <input id="username" type="text">
+              <label for="username">Username</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="password" type="password">
+              <label for="password">Password</label>
+            </div>
+            <div class="input-field button col s12">
+              <a class="waves-effect waves-light btn teal darken-4" onclick="login()">button</a>
+            </div>
           </div>
-          <div class="input-field col s12">
-            <input id="password" type="password">
-            <label for="password">Password</label>
-          </div>
-          <a class="waves-effect waves-light btn teal darken-4">button</a>
         </div>
-      </div>
-
-
-      <div class="col s12 m8 teal white">
-        <div class="row">
-          DRF
+        <div class="col s12 m6 l8 teal white">
+          <div id="banner">
+            <div>
+              <span>
+                Gerencie as suas tarefas com a maior eficiência, sem perder a praticidade
+              </span>
+            </div>
+            <div class="right">
+              <spa>
+                Com o Objectives você controla as suas tarefas de forma fácil e prática
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="../src/js/materialize.min.js"></script>
-</body>
+    <script src="../src/js/materialize.min.js"></script>
+    <script src="../src/js/script.js"></script>
+  </body>
 </html>

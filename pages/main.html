@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="../src/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../src/css/style.css">   
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>Objectives</title>
+  </head>
+  <body>
+    <div class="row no-margin">
+      <div class="col s2 m1 teal darken-1" style="position: fixed;">
+        <div class="container navbar">
+          <div class="navbar-item">
+            <span class="material-icons md-60 md-light waves-effect waves-light">account_circle</span>                        
+          </div>
+          <div class="navbar-item">
+            <span class="material-icons md-54 md-light waves-effect waves-light">inbox</span>                        
+          </div>
+          <div class="navbar-item">
+            <span class="material-icons md-54 md-light waves-effect waves-light">archive</span>                        
+          </div>
+          <div class="navbar-item">
+            <span class="material-icons md-54 md-light waves-effect waves-light">delete</span>                        
+          </div>
+          <div class="navbar-item">
+            <br>
+            <br>                      
+          </div>
+          <div class="navbar-item">
+            <span class="material-icons md-60 md-light waves-effect waves-light" onclick="logout()">logout</span>                      
+          </div>
+        </div>
+      </div>
+      <div class="col s2 m1"></div>
+      <div class="col s10 m11 white">
+        <div class="row">
+          <div class="col s12 m4 l3">
+            <div class="card">
+              <div class="card-content black-text">
+                <span class="card-title">Tarefa 1</span>
+                <p>Não esquecer de fazer a tarefa 1</p>
+              </div>
+              <div class="card-action">
+                <div class="item">
+                  <span class="material-icons waves-effect waves-dark" onclick="doneTask()">done_all</span>                        
+                </div>
+                <div class="item">
+                  <span class="material-icons waves-effect waves-dark" onclick="editTask()">edit</span>                        
+                </div>
+                <div class="item right">
+                  <span class="material-icons waves-effect waves-dark" onclick="deleteTask()">delete</span>                        
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l3">
+            <div class="card">
+              <div class="card-content black-text">
+                <span class="card-title">Concluir o projeto de Web 2</span>
+                <p>[X] Terminar design do projeto <br>
+                  [ ] Concluir requisitos da prova 1 <br>
+                  [ ] Concluir requisitos da prova 2 <br>
+                  [ ] Concluir requisitos da prova 3 <br>
+                </p>
+              </div>
+              <div class="card-action">
+                <div class="item">
+                  <span class="material-icons waves-effect waves-dark" onclick="doneTask()">done_all</span>                        
+                </div>
+                <div class="item">
+                  <span class="material-icons waves-effect waves-dark" onclick="editTask()">edit</span>                        
+                </div>
+                <div class="item right">
+                  <span class="material-icons waves-effect waves-dark" onclick="deleteTask()">delete</span>                        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../src/js/materialize.min.js"></script>
+    <script src="../src/js/script.js"></script>
+    </body>
+</html>
