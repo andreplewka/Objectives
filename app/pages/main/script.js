@@ -1,9 +1,6 @@
-function login(){
-    window.location.href = "main.html";
-}
 function logout(){
     if (confirm("Você está prestes a sair da sua conta") == true) {
-        window.location.href = "login.html";
+        window.location.href = "../login/login.html";
       } else {}
 }
 function doneTask(){
