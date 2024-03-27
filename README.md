@@ -3,109 +3,54 @@
 ## Wireframe/Prototype
 https://www.figma.com/proto/20MVX1JPP6vTEq7OItTttS/Objectives?node-id=2-11&scaling=contain&page-id=0%3A1&starting-point-node-id=2%3A11
 
-## Checkist
+## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
-Caixas de Diálogo
+#### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
+- [ ] ID 01 - Implementa um layout responsivo de uma página web utilizando um Framework CSS, como Bootstrap ou Tailwind, que se adapta adequadamente a diferentes tamanhos de tela e dispositivos.
+- [ ] ID 02 - Utiliza técnicas avançadas de CSS, como Flexbox ou Grid Layout, para criar layouts responsivos e fluidos em diferentes resoluções de tela.
+- [ ] ID 03 - Utiliza os componentes CSS e JavaScript oferecidos por um Framework CSS, como cards, modais ou carrosséis, aplicando estilos personalizados conforme o necessário.
+- [ ] ID 04 - Implementa um layout fluido e responsivo utilizando unidades de viewport relativas (vw, vh) em vez de unidades fixas (px) para criar uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
+- [ ] ID 05 - Implementa animações em elementos da página, como hover, fadeIn/fadeOut, slideIn/slideOut, utilizando CSS Animations ou bibliotecas de animação, como o Animate.css, para fornecer feedback visual ao usuário e criar uma experiência interativa.
+- [ ] ID 06 - Cria transições personalizadas entre diferentes estados da página ou elementos, como mudanças de layout, alterações de cor ou exibição/hide de elementos, usando CSS Transitions ou CSS Animation, para melhorar a usabilidade e a aparência da aplicação.
+- [ ] ID 07 - Aplica um Design System consistente, definindo diretrizes de estilo, cores, tipografia e padrões de componentes que são seguidos em toda a aplicação, garantindo uma experiência de usuário uniforme e atraente.
 
-- [ ] prompt
-- [x] alert
-- [x] confirm
+#### RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente, utilizando a API do HTML e expressões regulares (REGEX).
+- [ ] ID 08 - Implementa tratamento de formulários no lado cliente com apresentação de mensagens de erro ou sucesso, utilizando os recursos da API do HTML, como validação de campos obrigatórios, tipo de entrada e limites de caracteres, garantindo que os dados inseridos sejam válidos antes de serem enviados para o servidor.
+- [ ] ID 09 - Aplica expressões regulares (REGEX) de forma eficiente para realizar validações customizadas nos campos de formulários, como formatos específicos de e-mail, telefone, data ou outros padrões personalizados definidos pelos requisitos do projeto.
+- [ ] ID 10 - Incorpora elementos de listagem, como checkbox, radio ou select, de maneira eficiente em formulários web, possibilitando a seleção e coleta precisa de dados pelos usuários.
+- [ ] ID 11 - Realiza a escrita e leitura de dados no Web Storage, permitindo a persistência de informações entre sessões de usuário e fornecendo uma maneira eficaz de armazenar dados localmente no navegador.
 
-Temporizadores
+#### RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web, incluindo Node.js, NPM e linters para garantir a qualidade do código, juntamento com boas práticas de versionamento e organização de projetos.
+- [ ] ID 12 - Configura adequadamente um ambiente de desenvolvimento usando Node.js e NPM para gerenciar pacotes e dependências do projeto, facilitando a instalação e o uso de bibliotecas e ferramentas de terceiros.
+- [ ] ID 13 - Utiliza linters, como ESLint ou Stylelint, para analisar e corrigir automaticamente problemas de código, incluindo erros de sintaxe, estilo e boas práticas, garantindo a qualidade e consistência do código do projeto.
+- [ ] ID 14 - Adota boas práticas de versionamento utilizando sistemas como Git, criando e gerenciando repositórios com branches adequados.
+- [ ] ID 15 - Utiliza técnicas de minificação e otimização de recursos, como minificação de CSS e JavaScript e otimização de imagens, para melhorar o desempenho e o tempo de carregamento do site ou aplicação.
+- [ ] ID 16 - Organiza os arquivos do projeto em uma estrutura coerente, lógica e modular, facilitando a localização, manutenção e escalabilidade.
+- [ ] ID 17 - Utiliza as metodologias BEM (Block Element Modifier) ou SMACSS (Scalable and Modular Architecture for CSS) para organizar e estruturar os estilos CSS de forma eficiente, garantindo a reutilização de estilos, a legibilidade do código e a manutenção sustentável do projeto.
 
-- [ ] setInterval
-- [ ] setTimeout
+#### RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade de páginas web.
+- [ ] ID 18 - Utiliza a biblioteca jQuery para manipular o DOM e aprimorar a interatividade das páginas web, implementando funcionalidades como eventos, animações e manipulação de elementos HTML de forma eficiente. 
+- [ ] ID 19 - Seleciona e integra com sucesso um plugin jQuery, como o jQuery Mask Plugin ou outro plugin relevante para o projeto, a fim de melhorar a funcionalidade ou a aparência de elementos específicos em uma página web. 
+- [ ] ID 20 - Utiliza bibliotecas de web components, como Lit, para criar componentes reutilizáveis e encapsulados, melhorando a modularidade e a manutenibilidade das páginas web. 
+- [ ] ID 21 - Utiliza uma biblioteca de componentes prontos, como Material Web Components ou outra de escolha, ou então, algum componente independente (standalone) a fim de oferecer funcionalidades específicas sem a necessidade de estar integrado a uma biblioteca completa.
 
-Funções
+#### RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente.
+- [ ] ID 22 - Realiza requisições assíncronas para APIs públicas, utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para obter dados dinâmicos e realizar a manipulação e exibição dos resultados na página web.
+- [ ] ID 23 - Realiza requisições assíncronas para uma API fake utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para manipular dados e exibição dos resultados na página web.
 
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
-- [ ] Função anônima com retorno
-- [ ] Função auto-executável - não será aceita a mesma do Module Pattern
-- [ ] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro para outra função - ambas as funções precisam ser implementadas pelo aluno
-- [ ] Função Flecha - Arrow Function
-
-Eventos
-
-- [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - usar onfocus e onblur
-- [ ] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
-- [ ] <s>Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)</s>
-
-Acesso aos elementos DOM do HTML
-
-- [ ] Via referência DOM pelo id do elemento HTML - acesso sem uso do getElementByID ou querySelector, o id do objeto DOM é o próprio nome da variável
-- [ ] Via getElementByID()
-- [ ] Via getElementsByName()
-- [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
-
-Tratadores de Evento
-
-- [ ] Especificar o tratador de evento inline - registro do evento no HTML
-- [ ] Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
-- [ ] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
-- [ ] Usar o operador this em funções tratadoras de eventos.
-
-Objetos Nativos
-
-- [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
-- [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template - a String com crase e ${}
-- [ ] Manipulação do CSS de forma nativa via atributo style e classList
-
-Objetos
-
-- [ ] Criar objeto usando função construtora ou notação literal
-- [ ] (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
-- [ ] Usar herança prototipal nativa ou herança de classes do ES6
-
-Qualidade do código
-
-- [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
-- [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
-- [ ] Usar strict mode - em todos os arquivos
-- [ ] Usar Module Pattern com função auto-executável ou o conceito de módulo do ES6 com operadores export e import
-- [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ou const ao invés de var
-- [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
-
-Formulário
-
-- [ ] Validação de formulário com onsubmit usando os métodos tradicionais - é a fase executada após a validação via HTML5
-- [ ] Validação de formulário com HTML5 API
-  - [ ] Customizar as mensagens nos balões de mensagem
-  - [ ] Usar os atributos de validação dos inputs - required ou type="email" ou outros
-  - [ ] Usar expressões regulares para validação - usar no atributo pattern do respectivo input
-- [ ] Ler e escrever em elementos input com a propriedade value
-- [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
-- [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
-- [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
-
-jQuery
-
-- [ ] Uso de seletores CSS - id, classe e tag
-- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-- [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
-- [ ] Efeitos fade ou slide
-- [ ] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
-- [ ] Manipulação do CSS via função css() e addClass()/removeClass()
-- [ ] Manipulação do conteúdo de um input e div usando jQuery
-- [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
-
-Web Storage
-
-- [ ] Leitura e escrita de dados simples - dados primivos como string, number, boolean
-- [ ] Leitura e escrita de JSON - dado transformado a partir de um objeto
-- [ ] Criar e atribuir um dado em um Cookie - opcionalmente, ler e apresentar o valor na tela
-
-Requisições assíncronas
-
-- [ ] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node
-- [ ] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server 
-- [ ] Requisições AJAX para uma API Rest pública qualquer (Busca CEP API ou IBGE API ou outra).
+## Manual de execução
+- Clonar o repositório com `git clone`
+- Fazer checkout no branch `develop` que contém as modificações mais recentes
+- Abrir o projeto no editor Visual Studio Code (VS Code)
+- Abrir um terminal pelo VSCode ou qualquer terminal do seu Sistema Operacional apontando para o diretório raiz do projeto 
+- Instalar as dependências contidas no `package.json`
+  - Comando: `npm i`
+- (Opcional) Instalar o JSON Server globalmente disponível em `https://www.npmjs.com/package/json-server`
+  - Comando: `npm i -g json-server` 
+  - É opcional porque a dependência já vem cadastrada no arquivo `package.json` para instalação local na pasta `node_modules`
+- Executar a API Fake (JSON Server) via um dos seguintes comandos: 
+  - Execução via script registrado no `package.json`: `npm run json:server:routes` 
+  - Ou via Execução explícita: `json-server --watch db.json --routes routes.json`
+- O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto, ou seja, que contém o arquivo `db.json` e `routes.json`.
+  - Por padrão, a aplicação JSON Server executa no endereço `localhost:3000`    
+- Executar o projeto frontend.
